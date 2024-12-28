@@ -16,7 +16,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/rh-app")
-@CrossOrigin(value = "http://localhost:3000") // Para recibir peticiones desde otro puerto (front-end)
+@CrossOrigin // Para recibir peticiones desde otro puerto (front-end)
 public class EmployeeController {
     private Logger logger =
             LoggerFactory.getLogger(EmployeeController.class);
